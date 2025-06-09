@@ -1,0 +1,4 @@
+(executable
+ (public_name hex2cpp)
+ (name main)
+ (modes byte native))
