@@ -1,12 +1,17 @@
-# hex2cpp
+# hex2cpp - program to convert binary file into C++ byte array
 
-## Simple hex2cpp program written in OCaml
-### Building (using dune):
+#### Requirements:
+* opam - 2.3.0
+* dune - 3.19.0
+* ocaml - 5.3.0
+
+
+####  Building (using dune):
 ```
 dune build --profile release
-`
+```
 
-### Usage
+#### Usage:
 ```
 hex2cpp <file>
-`
+```
